@@ -18,6 +18,7 @@ interface PropsCard {
   qtdComentarios: number;
   anuncio?: boolean
   subTitulo?: string
+  link?: string
 }
 
 export const Card = ({
@@ -29,7 +30,8 @@ export const Card = ({
   avatar,
   imagem,
   anuncio,
-  subTitulo
+  subTitulo,
+  link
 }: PropsCard) => {
   return (
     <View style={style.containerCard}>
@@ -50,7 +52,7 @@ export const Card = ({
         <Image source={imagem} style={style.imagem}/>
         </View>
         <View style={style.linhaSingUp}>
-          <Text>primevideo.com</Text>
+          <Text style={style.link}>{link}</Text>
           <TouchableOpacity style={style.buttonSingUp}>
             <Text style={style.singUp}>Sing Up</Text>
           </TouchableOpacity>

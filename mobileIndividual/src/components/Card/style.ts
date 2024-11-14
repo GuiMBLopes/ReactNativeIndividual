@@ -16,7 +16,8 @@ export const style = StyleSheet.create({
   avatar: {
     top:4,
     height:20,
-    width:20
+    width:20,
+    marginRight:3
   },
   linha2: {
     padding: 5,
@@ -53,7 +54,6 @@ export const style = StyleSheet.create({
   titulo: {
     width: 300,
     fontSize: 15,
-    marginBottom: 5,
     marginTop: 5,
     fontWeight: "bold",
   },
@@ -69,7 +69,7 @@ export const style = StyleSheet.create({
     borderRadius:20
   },
 
-  buttons: { flexDirection: "row", marginTop: 40, marginBottom: 10 },
+  buttons: { flexDirection: "row", marginTop: 30, marginBottom: 10 },
 
   button: {
     flexDirection: "row",
@@ -125,7 +125,7 @@ export const style = StyleSheet.create({
 
   linhaSingUp: {
     flexDirection: "row",
-    marginBottom: 15,
+    marginBottom: 10,
     marginTop: 40,
     justifyContent: "space-between",
   },
@@ -147,6 +147,8 @@ export const style = StyleSheet.create({
   subTitulo: {
     marginBottom: 10,
     fontSize: 11,
+    marginTop:10,
+    top:10,
   },
 
   buttonAnuncio: {
@@ -162,4 +164,8 @@ export const style = StyleSheet.create({
     marginRight: 10,
     marginTop: 5,
   },
+  link:{
+    color:"#00000080",
+    fontSize:11
+  }
 });

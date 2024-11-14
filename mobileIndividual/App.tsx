@@ -7,7 +7,8 @@ export default function App() {
   return (
     <View>
       <StatusBar barStyle={"default"} />
-    <Login/>
+    {/* <Login/> */}
+    <Home/>
     </View>
   );
 }

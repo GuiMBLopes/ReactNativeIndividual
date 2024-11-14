@@ -39,7 +39,7 @@ export const Home = () => {
           </View>
         </View>
         <FlatList
-          scrollEnabled={true}
+        scrollEnabled={true}
           data={APIData}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
@@ -53,6 +53,7 @@ export const Home = () => {
               subTitulo={item.subtitulo}
               avatar={item.avatar}
               imagem={item.imagem}
+              link={item.link}
             />
           )}
         />

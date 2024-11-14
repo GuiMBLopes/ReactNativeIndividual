@@ -20,7 +20,8 @@ export const APIData = [
             qtdLikes: 29,
             qtdComentarios:0,
             anuncio: true,
-            subtitulo:"Start your Free Trail now."
+            subtitulo:"Start your Free Trail now.",
+            link:"primevideo.com"
         }
         ,
         {
@@ -28,7 +29,7 @@ export const APIData = [
             nome:"Maria",
             avatar: require("../mock/imagens/reddit.png"),
             hrPostado: 2,
-            titulo:"Primeiro Post",
+            titulo:"TIL that after filling a lawsuit for assault against UFC figther Connor McGregor in 2022",
             imagem: require("../mock/imagens/Duna.jpeg"),
             qtdLikes: 29,
             qtdComentarios:15,
