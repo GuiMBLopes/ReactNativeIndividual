@@ -1,0 +1,52 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container:{
+        display:"flex",
+        width:"100%",
+        flexDirection:"row",
+        borderColor:"#00000020",
+        borderWidth:0.5
+    },
+    linha1:{
+        flexDirection:"row",
+        gap:10
+    },
+    bars:{
+        marginTop:8,
+        marginLeft:10
+    },
+    pipe:{
+        left:110,
+        fontSize:25,
+        color:"#00000020"
+    },
+    linha2:{
+        width:"45%",
+        flexDirection:"row",
+        gap:10,
+        left:120,
+        justifyContent:"space-between"
+    },
+    button:{
+        width:70,
+        height:40,
+        borderRadius:30,
+        backgroundColor:"#fd4600",
+        textAlign:"center",
+        justifyContent:"center",
+        paddingLeft:5,
+        marginBottom:5
+    },
+    useApp:{
+        fontSize:10,
+        color:"#fff",
+        paddingLeft:5
+    },
+    search:{
+        top:5,
+    },
+    points:{
+        top:8
+    }
+})
